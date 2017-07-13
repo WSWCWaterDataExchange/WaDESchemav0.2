@@ -1,0 +1,121 @@
+<HTML>
+<header>
+<title>WaDE Foreign Keys</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</header>
+<body>
+<div class="logo">
+<p>WaDE [WaDE_July13_2017.xml]</p>
+</div>
+<div class="horzMenu">
+<a class="horzMenu" href="../index.html"> Home</a><a class="horzMenu" href="../tables/index.html">Tables</a><a class="horzMenu" href="../schemas/index.html">Schemas</a><a class="horzMenu" href="../diagrams/index.html">Diagrams</a><a class="horzMenu" href="../foreignKeys/index.html">Foreign Keys</a><a class="horzMenu" href="../indexes/index.html">Indexes</a>
+</div>
+<hr>
+<h1>Foreign Keys</h1>
+<table class="flat">
+<tr>
+<td class="header">Name</td><td class="header">Parent Table</td><td class="header">Child Table</td><td class="header">Parent Columns</td><td class="header">Child Columns</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_ALLOCATION_ACTUAL_fk_D_ALLOCATION_ACTUAL_D_ALLOCATION_FLOW.html">fk_D_ALLOCATION_ACTUAL_D_ALLOCATION_FLOW</a></td><td><a href="../tables/DataValues_D_ALLOCATION_FLOW.html">DataValues.D_ALLOCATION_FLOW</a></td><td><a href="../tables/DataValues_D_ALLOCATION_ACTUAL.html">DataValues.D_ALLOCATION_ACTUAL</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DETAIL_SEQ_NO</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DETAIL_SEQ_NO</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_ALLOCATION_FLOW_fk_D_ALLOCATION_FLOW_DETAIL_ALLOCATION.html">fk_D_ALLOCATION_FLOW_DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_ALLOCATION.html">DataValues.DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_D_ALLOCATION_FLOW.html">DataValues.D_ALLOCATION_FLOW</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_ALLOCATION_USE_fk_D_ALLOCATION_USE_D_ALLOCATION_FLOW.html">fk_D_ALLOCATION_USE_D_ALLOCATION_FLOW</a></td><td><a href="../tables/DataValues_D_ALLOCATION_FLOW.html">DataValues.D_ALLOCATION_FLOW</a></td><td><a href="../tables/DataValues_D_ALLOCATION_USE.html">DataValues.D_ALLOCATION_USE</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DETAIL_SEQ_NO</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DETAIL_SEQ_NO</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_COMMUNITY_WATER_SUPPLY_fk_D_COMMUNITY_WATER_SUPPLY_D_CONSUMPTIVE_USE.html">fk_D_COMMUNITY_WATER_SUPPLY_D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_CONSUMPTIVE_USE.html">DataValues.D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_COMMUNITY_WATER_SUPPLY.html">DataValues.D_COMMUNITY_WATER_SUPPLY</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_CONSUMPTIVE_USE_fk_D_CONSUMPTIVE_USE_DETAIL_USE.html">fk_D_CONSUMPTIVE_USE_DETAIL_USE</a></td><td><a href="../tables/DataValues_DETAIL_USE.html">DataValues.DETAIL_USE</a></td><td><a href="../tables/DataValues_D_CONSUMPTIVE_USE.html">DataValues.D_CONSUMPTIVE_USE</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_DIVERSION_ACTUAL_fk_D_DIVERSION_ACTUAL_D_DIVERSION_FLOW.html">fk_D_DIVERSION_ACTUAL_D_DIVERSION_FLOW</a></td><td><a href="../tables/DataValues_D_DIVERSION_FLOW.html">DataValues.D_DIVERSION_FLOW</a></td><td><a href="../tables/DataValues_D_DIVERSION_ACTUAL.html">DataValues.D_DIVERSION_ACTUAL</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID, DETAIL_SEQ_NO</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID, DETAIL_SEQ_NO</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_DIVERSION_FLOW_fk_D_DIVERSION_FLOW_DETAIL_DIVERSION.html">fk_D_DIVERSION_FLOW_DETAIL_DIVERSION</a></td><td><a href="../tables/DataValues_DETAIL_DIVERSION.html">DataValues.DETAIL_DIVERSION</a></td><td><a href="../tables/DataValues_D_DIVERSION_FLOW.html">DataValues.D_DIVERSION_FLOW</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_DIVERSION_USE_fk_D_DIVERSION_USE_D_DIVERSION_FLOW.html">fk_D_DIVERSION_USE_D_DIVERSION_FLOW</a></td><td><a href="../tables/DataValues_D_DIVERSION_FLOW.html">DataValues.D_DIVERSION_FLOW</a></td><td><a href="../tables/DataValues_D_DIVERSION_USE.html">DataValues.D_DIVERSION_USE</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID, DETAIL_SEQ_NO</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, DIVERSION_ID, DETAIL_SEQ_NO</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_IRRIGATION_fk_D_IRRIGATION_D_CONSUMPTIVE_USE.html">fk_D_IRRIGATION_D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_CONSUMPTIVE_USE.html">DataValues.D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_IRRIGATION.html">DataValues.D_IRRIGATION</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_RETURN_FLOW_ACTUAL_fk_D_RETURN_FLOW_ACTUAL_DETAIL_RETURN_FLOW.html">fk_D_RETURN_FLOW_ACTUAL_DETAIL_RETURN_FLOW</a></td><td><a href="../tables/DataValues_DETAIL_RETURN_FLOW.html">DataValues.DETAIL_RETURN_FLOW</a></td><td><a href="../tables/DataValues_D_RETURN_FLOW_ACTUAL.html">DataValues.D_RETURN_FLOW_ACTUAL</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, RETURN_FLOW_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, RETURN_FLOW_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_THERMOELECTRIC_fk_D_THERMOELECTRIC_D_CONSUMPTIVE_USE.html">fk_D_THERMOELECTRIC_D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_CONSUMPTIVE_USE.html">DataValues.D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_THERMOELECTRIC.html">DataValues.D_THERMOELECTRIC</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_D_USE_AMOUNT_fk_D_USE_AMOUNT_D_CONSUMPTIVE_USE.html">fk_D_USE_AMOUNT_D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_CONSUMPTIVE_USE.html">DataValues.D_CONSUMPTIVE_USE</a></td><td><a href="../tables/DataValues_D_USE_AMOUNT.html">DataValues.D_USE_AMOUNT</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID, BENEFICIAL_USE_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_D_USE_LOCATION_fk_D_USE_LOCATION_DETAIL_USE.html">fk_D_USE_LOCATION_DETAIL_USE</a></td><td><a href="../tables/DataValues_DETAIL_USE.html">DataValues.DETAIL_USE</a></td><td><a href="../tables/DataValues_D_USE_LOCATION.html">DataValues.D_USE_LOCATION</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID, WATER_USER_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_DETAIL_ALLOCATION_fk_DETAIL_ALLOCATION_REPORT.html">fk_DETAIL_ALLOCATION_REPORT</a></td><td><a href="../tables/Metadata_REPORT.html">Metadata.REPORT</a></td><td><a href="../tables/DataValues_DETAIL_ALLOCATION.html">DataValues.DETAIL_ALLOCATION</a></td><td>ORGANIZATION_ID, REPORT_ID</td><td>ORGANIZATION_ID, REPORT_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_DETAIL_DIVERSION_fk_DETAIL_DIVERSION_DETAIL_ALLOCATION.html">fk_DETAIL_DIVERSION_DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_ALLOCATION.html">DataValues.DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_DIVERSION.html">DataValues.DETAIL_DIVERSION</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_DETAIL_RETURN_FLOW_fk_DETAIL_RETURN_FLOW_DETAIL_ALLOCATION.html">fk_DETAIL_RETURN_FLOW_DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_ALLOCATION.html">DataValues.DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_RETURN_FLOW.html">DataValues.DETAIL_RETURN_FLOW</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_DETAIL_USE_fk_DETAIL_USE_DETAIL_ALLOCATION.html">fk_DETAIL_USE_DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_ALLOCATION.html">DataValues.DETAIL_ALLOCATION</a></td><td><a href="../tables/DataValues_DETAIL_USE.html">DataValues.DETAIL_USE</a></td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td><td>ORGANIZATION_ID, REPORT_ID, ALLOCATION_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_REPORTING_UNIT_fk_REPORTING_UNIT_REPORT.html">fk_REPORTING_UNIT_REPORT</a></td><td><a href="../tables/Metadata_REPORT.html">Metadata.REPORT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td>ORGANIZATION_ID, REPORT_ID</td><td>ORGANIZATION_ID, REPORT_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_S_ALLOCATION_IRRIGATION_fk_S_ALLOCATION_IRRIGATION_SUMMARY_ALLOCATION.html">fk_S_ALLOCATION_IRRIGATION_SUMMARY_ALLOCATION</a></td><td><a href="../tables/DataValues_SUMMARY_ALLOCATION.html">DataValues.SUMMARY_ALLOCATION</a></td><td><a href="../tables/DataValues_S_ALLOCATION_IRRIGATION.html">DataValues.S_ALLOCATION_IRRIGATION</a></td><td>ORGANIZATION_ID, REPORT_UNIT_ID, REPORT_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_UNIT_ID, REPORT_ID, SUMMARY_SEQ</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_S_AVAILABILITY_AMOUNT_fk_S_SUMMARY_AMOUNT_SUMMARY_AVAILABILITY.html">fk_S_SUMMARY_AMOUNT_SUMMARY_AVAILABILITY</a></td><td><a href="../tables/DataValues_SUMMARY_AVAILABILITY.html">DataValues.SUMMARY_AVAILABILITY</a></td><td><a href="../tables/DataValues_S_AVAILABILITY_AMOUNT.html">DataValues.S_AVAILABILITY_AMOUNT</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_S_AVAILABILITY_METRIC_fk_S_AVAILABILITY_METRIC_METRICS.html">fk_S_AVAILABILITY_METRIC_METRICS</a></td><td><a href="../tables/Metadata_METRICS.html">Metadata.METRICS</a></td><td><a href="../tables/DataValues_S_AVAILABILITY_METRIC.html">DataValues.S_AVAILABILITY_METRIC</a></td><td>METRIC_ID</td><td>METRIC_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_S_AVAILABILITY_METRIC_fk_S_AVAILABILITY_METRIC_SUMMARY_AVAILABILITY.html">fk_S_AVAILABILITY_METRIC_SUMMARY_AVAILABILITY</a></td><td><a href="../tables/DataValues_SUMMARY_AVAILABILITY.html">DataValues.SUMMARY_AVAILABILITY</a></td><td><a href="../tables/DataValues_S_AVAILABILITY_METRIC.html">DataValues.S_AVAILABILITY_METRIC</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_S_USE_AMOUNT_fk_S_USE_AMOUNT_SUMMARY_USE.html">fk_S_USE_AMOUNT_SUMMARY_USE</a></td><td><a href="../tables/DataValues_SUMMARY_USE.html">DataValues.SUMMARY_USE</a></td><td><a href="../tables/DataValues_S_USE_AMOUNT.html">DataValues.S_USE_AMOUNT</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, BENEFICIAL_USE_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, BENEFICIAL_USE_ID, SUMMARY_SEQ</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_S_USE_IRRIGATION_fk_S_USE_IRRIGATION_SUMMARY_USE.html">fk_S_USE_IRRIGATION_SUMMARY_USE</a></td><td><a href="../tables/DataValues_SUMMARY_USE.html">DataValues.SUMMARY_USE</a></td><td><a href="../tables/DataValues_S_USE_IRRIGATION.html">DataValues.S_USE_IRRIGATION</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_S_WATER_SUPPLY_AMOUNT_fk_S_WATER_SUPPLY_AMOUNT_SUMMARY_WATER_SUPPLY.html">fk_S_WATER_SUPPLY_AMOUNT_SUMMARY_WATER_SUPPLY</a></td><td><a href="../tables/DataValues_SUMMARY_WATER_SUPPLY.html">DataValues.SUMMARY_WATER_SUPPLY</a></td><td><a href="../tables/DataValues_S_WATER_SUPPLY_AMOUNT.html">DataValues.S_WATER_SUPPLY_AMOUNT</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID, SUMMARY_SEQ</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_SUMMARY_ALLOCATION_fk_SUMMARY_ALLOCATION_REPORTING_UNIT.html">fk_SUMMARY_ALLOCATION_REPORTING_UNIT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td><a href="../tables/DataValues_SUMMARY_ALLOCATION.html">DataValues.SUMMARY_ALLOCATION</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_SUMMARY_AVAILABILITY_fk_SUMMARY_AVAILABILITY_REPORTING_UNIT.html">fk_SUMMARY_AVAILABILITY_REPORTING_UNIT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td><a href="../tables/DataValues_SUMMARY_AVAILABILITY.html">DataValues.SUMMARY_AVAILABILITY</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_SUMMARY_REGULATORY_fk_SUMMARY_REGULATORY_REPORTING_UNIT.html">fk_SUMMARY_REGULATORY_REPORTING_UNIT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td><a href="../tables/DataValues_SUMMARY_REGULATORY.html">DataValues.SUMMARY_REGULATORY</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/DataValues_SUMMARY_USE_fk_SUMMARY_USE_REPORTING_UNIT.html">fk_SUMMARY_USE_REPORTING_UNIT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td><a href="../tables/DataValues_SUMMARY_USE.html">DataValues.SUMMARY_USE</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/DataValues_SUMMARY_WATER_SUPPLY_fk_SUMMARY_WATER_SUPPLY_REPORTING_UNIT.html">fk_SUMMARY_WATER_SUPPLY_REPORTING_UNIT</a></td><td><a href="../tables/DataValues_REPORTING_UNIT.html">DataValues.REPORTING_UNIT</a></td><td><a href="../tables/DataValues_SUMMARY_WATER_SUPPLY.html">DataValues.SUMMARY_WATER_SUPPLY</a></td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td><td>ORGANIZATION_ID, REPORT_ID, REPORT_UNIT_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/Metadata_GEOSPATIAL_REF_fk_GEOSPATIAL_REF_REPORT.html">fk_GEOSPATIAL_REF_REPORT</a></td><td><a href="../tables/Metadata_REPORT.html">Metadata.REPORT</a></td><td><a href="../tables/Metadata_GEOSPATIAL_REF.html">Metadata.GEOSPATIAL_REF</a></td><td>ORGANIZATION_ID, REPORT_ID</td><td>ORGANIZATION_ID, REPORT_ID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/Metadata_METHODS_fk_METHODS_DATA_SOURCES.html">fk_METHODS_DATA_SOURCES</a></td><td><a href="../tables/Metadata_DATA_SOURCES.html">Metadata.DATA_SOURCES</a></td><td><a href="../tables/Metadata_METHODS.html">Metadata.METHODS</a></td><td>SOURCE_ID</td><td>SOURCE_ID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/Metadata_REPORT_fk_REPORT_ORGANIZATION.html">fk_REPORT_ORGANIZATION</a></td><td><a href="../tables/Metadata_ORGANIZATION.html">Metadata.ORGANIZATION</a></td><td><a href="../tables/Metadata_REPORT.html">Metadata.REPORT</a></td><td>ORGANIZATION_ID</td><td>ORGANIZATION_ID</td>
+</tr>
+</table>
+</body>
+</HTML>
