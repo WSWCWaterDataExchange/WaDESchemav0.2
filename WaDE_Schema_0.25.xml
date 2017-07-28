@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Db flnm="WaDE_July13_2017" nm="WaDE" ver="1.3.4">
+<?xml version="1.0" encoding="UTF-8"?><Db flnm="WaDE_Schema_0.25" nm="WaDE" ver="1.3.4">
   <VerLbl/>
   <VerNotes/>
   <DefTblOpts/>
@@ -2193,7 +2193,7 @@
     </Zones>
   </Dgm>
   <Dgm nm="WaDE_Schema">
-    <RnCf ClkAct="false" FtSz="16" lkStgy="RightAngleStrategy" zm="0.75">
+    <RnCf ClkAct="false" FtSz="16" lkStgy="RightAngleStrategy" zm="0.7">
       <VbCfg>
         <Fg ky="Auto Number" vl="0"/>
         <Fg ky="Check" vl="0"/>
@@ -2219,129 +2219,129 @@
     <TbGl bkCl="ffffffff" sch="DataValues" tbl="S_USE_IRRIGATION" x="2053" y="157"/>
     <TbGl bkCl="ffbb00bb" sch="DataValues" tbl="S_WATER_SUPPLY_AMOUNT" x="1384" y="169"/>
     <TbGl bkCl="ffbb00bb" sch="DataValues" tbl="SUMMARY_WATER_SUPPLY" x="1395" y="497"/>
-    <TbGl bkCl="ff333333" sch="DataValues" tbl="DETAIL_ALLOCATION" x="1017" y="1267"/>
+    <TbGl bkCl="ff333333" sch="DataValues" tbl="DETAIL_ALLOCATION" x="1017" y="1331"/>
     <TbGl bkCl="ff990f0f" sch="DataValues" tbl="S_AVAILABILITY_AMOUNT" x="298" y="282"/>
     <TbGl bkCl="ff990f0f" sch="DataValues" tbl="SUMMARY_AVAILABILITY" x="137" y="572"/>
-    <TbGl bkCl="ff333333" sch="Metadata" tbl="REPORT" x="971" y="950"/>
+    <TbGl bkCl="ff99540f" sch="Metadata" tbl="REPORT" x="1008" y="1067"/>
     <TbGl bkCl="ff6b990f" sch="DataValues" tbl="S_ALLOCATION_IRRIGATION" x="642" y="183"/>
     <TbGl bkCl="ff6b990f" sch="DataValues" tbl="SUMMARY_ALLOCATION" x="645" y="426"/>
-    <TbGl bkCl="ff333333" sch="DataValues" tbl="REPORTING_UNIT" x="960" y="653"/>
+    <TbGl bkCl="ff99540f" sch="DataValues" tbl="REPORTING_UNIT" x="978" y="815"/>
     <TbGl bkCl="ffffffff" sch="DataValues" tbl="S_USE_AMOUNT" x="1715" y="147"/>
-    <TbGl bkCl="ffffffff" sch="DataValues" tbl="SUMMARY_USE" x="1852" y="523"/>
+    <TbGl bkCl="ffffffff" sch="DataValues" tbl="SUMMARY_USE" x="1851" y="514"/>
     <TbGl bkCl="ff6666ff" sch="DataValues" tbl="SUMMARY_REGULATORY" x="991" y="198"/>
-    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_FLOW" x="423" y="1387"/>
-    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_USE" x="597" y="1763"/>
-    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_ACTUAL" x="325" y="1758"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="DETAIL_USE" x="1139" y="1515"/>
-    <TbGl bkCl="ff99540f" sch="DataValues" tbl="D_USE_LOCATION" x="802" y="1469"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_CONSUMPTIVE_USE" x="1146" y="1699"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_THERMOELECTRIC" x="1571" y="1982"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_USE_AMOUNT" x="1293" y="1978"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_IRRIGATION" x="664" y="1981"/>
-    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_COMMUNITY_WATER_SUPPLY" x="946" y="1986"/>
-    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_ACTUAL" x="1841" y="1895"/>
-    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_FLOW" x="1994" y="1544"/>
-    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_USE" x="2118" y="1918"/>
-    <TbGl bkCl="ff99540f" sch="DataValues" tbl="D_ALLOCATION_LOCATION" x="1483" y="1340"/>
-    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="DETAIL_DIVERSION" x="1973" y="1283"/>
-    <TbGl bkCl="ffffffff" sch="DataValues" tbl="D_RETURN_FLOW_ACTUAL" x="29" y="1756"/>
-    <TbGl bkCl="ffffffff" sch="DataValues" tbl="DETAIL_RETURN_FLOW" x="41" y="1402"/>
-    <TbGl bkCl="ff99540f" sch="Metadata" tbl="DATA_SOURCES" x="1641" y="935"/>
-    <TbGl bkCl="ff99540f" sch="Metadata" tbl="GEOSPATIAL_REF" x="1282" y="953"/>
-    <TbGl bkCl="ff99540f" sch="Metadata" tbl="METHODS" x="2008" y="896"/>
-    <TbGl bkCl="ff99540f" sch="Metadata" tbl="ORGANIZATION" x="605" y="857"/>
+    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_FLOW" x="423" y="1451"/>
+    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_USE" x="597" y="1827"/>
+    <TbGl bkCl="ff6666ff" sch="DataValues" tbl="D_ALLOCATION_ACTUAL" x="325" y="1822"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="DETAIL_USE" x="1139" y="1579"/>
+    <TbGl bkCl="ff99540f" sch="DataValues" tbl="D_USE_LOCATION" x="802" y="1533"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_CONSUMPTIVE_USE" x="1146" y="1763"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_THERMOELECTRIC" x="1571" y="2046"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_USE_AMOUNT" x="1293" y="2042"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_IRRIGATION" x="664" y="2045"/>
+    <TbGl bkCl="ff990f0f" sch="DataValues" tbl="D_COMMUNITY_WATER_SUPPLY" x="946" y="2050"/>
+    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_ACTUAL" x="1841" y="1959"/>
+    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_FLOW" x="1994" y="1608"/>
+    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="D_DIVERSION_USE" x="2118" y="1982"/>
+    <TbGl bkCl="ff99540f" sch="DataValues" tbl="D_ALLOCATION_LOCATION" x="1467" y="1458"/>
+    <TbGl bkCl="ff6b990f" sch="DataValues" tbl="DETAIL_DIVERSION" x="1973" y="1347"/>
+    <TbGl bkCl="ffffffff" sch="DataValues" tbl="D_RETURN_FLOW_ACTUAL" x="29" y="1820"/>
+    <TbGl bkCl="ffffffff" sch="DataValues" tbl="DETAIL_RETURN_FLOW" x="41" y="1466"/>
+    <TbGl bkCl="ff99540f" sch="Metadata" tbl="DATA_SOURCES" x="1709" y="935"/>
+    <TbGl bkCl="ff99540f" sch="Metadata" tbl="GEOSPATIAL_REF" x="1316" y="1061"/>
+    <TbGl bkCl="ff99540f" sch="Metadata" tbl="METHODS" x="2076" y="896"/>
+    <TbGl bkCl="ff99540f" sch="Metadata" tbl="ORGANIZATION" x="532" y="879"/>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_ALLOCATION_ACTUAL.fk_D_ALLOCATION_ACTUAL_D_ALLOCATION_FLOW" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="492" x2="492" y1="1670" y2="1758"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="492" x2="492" y1="1734" y2="1822"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_ALLOCATION_FLOW.fk_D_ALLOCATION_FLOW_DETAIL_ALLOCATION" parentEdge="WEST" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1017" x2="557" y1="1350" y2="1350"/>
-        <positionableLine lineRole="CHILD_LINE" x1="553" x2="553" y1="1387" y2="1354"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1017" x2="557" y1="1414" y2="1414"/>
+        <positionableLine lineRole="CHILD_LINE" x1="553" x2="553" y1="1451" y2="1418"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_ALLOCATION_USE.fk_D_ALLOCATION_USE_D_ALLOCATION_FLOW" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="632" x2="632" y1="1670" y2="1763"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="632" x2="632" y1="1734" y2="1827"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_COMMUNITY_WATER_SUPPLY.fk_D_COMMUNITY_WATER_SUPPLY_D_CONSUMPTIVE_USE" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1210" x2="1210" y1="1887" y2="1986"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1210" x2="1210" y1="1951" y2="2050"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_CONSUMPTIVE_USE.fk_D_CONSUMPTIVE_USE_DETAIL_USE" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1262" x2="1262" y1="1646" y2="1699"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1262" x2="1262" y1="1710" y2="1763"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_DIVERSION_ACTUAL.fk_D_DIVERSION_ACTUAL_D_DIVERSION_FLOW" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="2040" x2="2040" y1="1846" y2="1895"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="2040" x2="2040" y1="1910" y2="1959"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_DIVERSION_FLOW.fk_D_DIVERSION_FLOW_DETAIL_DIVERSION" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="2078" x2="2078" y1="1509" y2="1544"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="2078" x2="2078" y1="1573" y2="1608"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_DIVERSION_USE.fk_D_DIVERSION_USE_D_DIVERSION_FLOW" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="2192" x2="2192" y1="1846" y2="1918"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="2192" x2="2192" y1="1910" y2="1982"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_IRRIGATION.fk_D_IRRIGATION_D_CONSUMPTIVE_USE" parentEdge="WEST" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1146" x2="884" y1="1796" y2="1796"/>
-        <positionableLine lineRole="CHILD_LINE" x1="880" x2="880" y1="1981" y2="1800"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1146" x2="884" y1="1860" y2="1860"/>
+        <positionableLine lineRole="CHILD_LINE" x1="880" x2="880" y1="2045" y2="1864"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_RETURN_FLOW_ACTUAL.fk_D_RETURN_FLOW_ACTUAL_DETAIL_RETURN_FLOW" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="156" x2="156" y1="1628" y2="1756"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="156" x2="156" y1="1692" y2="1820"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_THERMOELECTRIC.fk_D_THERMOELECTRIC_D_CONSUMPTIVE_USE" parentEdge="EAST" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1395" x2="1652" y1="1797" y2="1797"/>
-        <positionableLine lineRole="CHILD_LINE" x1="1656" x2="1656" y1="1982" y2="1801"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1395" x2="1652" y1="1861" y2="1861"/>
+        <positionableLine lineRole="CHILD_LINE" x1="1656" x2="1656" y1="2046" y2="1865"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.D_USE_AMOUNT.fk_D_USE_AMOUNT_D_CONSUMPTIVE_USE" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1345" x2="1345" y1="1887" y2="1978"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1345" x2="1345" y1="1951" y2="2042"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="EAST" nm="DataValues.D_USE_LOCATION.fk_D_USE_LOCATION_DETAIL_USE" parentEdge="WEST" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1139" x2="1059" y1="1570" y2="1570"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1139" x2="1059" y1="1634" y2="1634"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.DETAIL_ALLOCATION.fk_DETAIL_ALLOCATION_REPORT" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1112" x2="1112" y1="1119" y2="1267"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1138" x2="1138" y1="1236" y2="1331"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="WEST" nm="DataValues.DETAIL_DIVERSION.fk_DETAIL_DIVERSION_DETAIL_ALLOCATION" parentEdge="EAST" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1277" x2="1973" y1="1314" y2="1314"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1277" x2="1973" y1="1378" y2="1378"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.DETAIL_RETURN_FLOW.fk_DETAIL_RETURN_FLOW_DETAIL_ALLOCATION" parentEdge="WEST" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1017" x2="150" y1="1321" y2="1321"/>
-        <positionableLine lineRole="CHILD_LINE" x1="146" x2="146" y1="1402" y2="1325"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1017" x2="150" y1="1385" y2="1385"/>
+        <positionableLine lineRole="CHILD_LINE" x1="146" x2="146" y1="1466" y2="1389"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="NORTH" nm="DataValues.DETAIL_USE.fk_DETAIL_USE_DETAIL_ALLOCATION" parentEdge="SOUTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1211" x2="1211" y1="1455" y2="1515"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1211" x2="1211" y1="1519" y2="1579"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.REPORTING_UNIT.fk_REPORTING_UNIT_REPORT" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1085" x2="1085" y1="950" y2="841"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1122" x2="1122" y1="1067" y2="1003"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.S_ALLOCATION_IRRIGATION.fk_S_ALLOCATION_IRRIGATION_SUMMARY_ALLOCATION" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
@@ -2366,12 +2366,12 @@
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.S_USE_AMOUNT.fk_S_USE_AMOUNT_SUMMARY_USE" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1901" x2="1901" y1="523" y2="392"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1900" x2="1900" y1="514" y2="392"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.S_USE_IRRIGATION.fk_S_USE_IRRIGATION_SUMMARY_USE" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="2092" x2="2092" y1="523" y2="364"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="2091" x2="2091" y1="514" y2="364"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.S_WATER_SUPPLY_AMOUNT.fk_S_WATER_SUPPLY_AMOUNT_SUMMARY_WATER_SUPPLY" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
@@ -2379,54 +2379,56 @@
         <positionableLine lineRole="SINGLE_LINE" x1="1514" x2="1514" y1="497" y2="376"/>
       </positionableLines>
     </FkGl>
-    <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.SUMMARY_ALLOCATION.fk_SUMMARY_ALLOCATION_REPORTING_UNIT" parentEdge="WEST" positioner="TwoLineUserLinkPositioner">
+    <FkGl bkCl="ff000000" childEdge="EAST" nm="DataValues.SUMMARY_ALLOCATION.fk_SUMMARY_ALLOCATION_REPORTING_UNIT" parentEdge="NORTH" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="960" x2="780" y1="697" y2="697"/>
-        <positionableLine lineRole="CHILD_LINE" x1="776" x2="776" y1="671" y2="693"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1079" x2="1079" y1="815" y2="588"/>
+        <positionableLine lineRole="CHILD_LINE" x1="907" x2="1075" y1="584" y2="584"/>
       </positionableLines>
     </FkGl>
-    <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.SUMMARY_AVAILABILITY.fk_SUMMARY_AVAILABILITY_REPORTING_UNIT" parentEdge="WEST" positioner="TwoLineUserLinkPositioner">
+    <FkGl bkCl="ff000000" childEdge="EAST" nm="DataValues.SUMMARY_AVAILABILITY.fk_SUMMARY_AVAILABILITY_REPORTING_UNIT" parentEdge="NORTH" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="960" x2="281" y1="788" y2="788"/>
-        <positionableLine lineRole="CHILD_LINE" x1="277" x2="277" y1="760" y2="784"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1032" x2="1032" y1="815" y2="710"/>
+        <positionableLine lineRole="CHILD_LINE" x1="402" x2="1028" y1="706" y2="706"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.SUMMARY_REGULATORY.fk_SUMMARY_REGULATORY_REPORTING_UNIT" parentEdge="NORTH" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1131" x2="1131" y1="653" y2="405"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1149" x2="1149" y1="815" y2="405"/>
       </positionableLines>
     </FkGl>
-    <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.SUMMARY_USE.fk_SUMMARY_USE_REPORTING_UNIT" parentEdge="EAST" positioner="TwoLineUserLinkPositioner">
+    <FkGl bkCl="ff000000" childEdge="WEST" nm="DataValues.SUMMARY_USE.fk_SUMMARY_USE_REPORTING_UNIT" parentEdge="NORTH" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1239" x2="1948" y1="780" y2="780"/>
-        <positionableLine lineRole="CHILD_LINE" x1="1952" x2="1952" y1="749" y2="776"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1244" x2="1244" y1="815" y2="705"/>
+        <positionableLine lineRole="CHILD_LINE" x1="1851" x2="1248" y1="701" y2="701"/>
       </positionableLines>
     </FkGl>
-    <FkGl bkCl="ff000000" childEdge="SOUTH" nm="DataValues.SUMMARY_WATER_SUPPLY.fk_SUMMARY_WATER_SUPPLY_REPORTING_UNIT" parentEdge="EAST" positioner="TwoLineUserLinkPositioner">
+    <FkGl bkCl="ff000000" childEdge="WEST" nm="DataValues.SUMMARY_WATER_SUPPLY.fk_SUMMARY_WATER_SUPPLY_REPORTING_UNIT" parentEdge="NORTH" positioner="TwoLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="PARENT_LINE" x1="1239" x2="1537" y1="706" y2="706"/>
-        <positionableLine lineRole="CHILD_LINE" x1="1541" x2="1541" y1="647" y2="702"/>
+        <positionableLine lineRole="PARENT_LINE" x1="1203" x2="1203" y1="815" y2="592"/>
+        <positionableLine lineRole="CHILD_LINE" x1="1395" x2="1207" y1="588" y2="588"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="WEST" nm="Metadata.GEOSPATIAL_REF.fk_GEOSPATIAL_REF_REPORT" parentEdge="EAST" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1211" x2="1282" y1="1021" y2="1021"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1248" x2="1316" y1="1138" y2="1138"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="WEST" nm="Metadata.METHODS.fk_METHODS_DATA_SOURCES" parentEdge="EAST" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="1904" x2="2008" y1="1016" y2="1016"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="1972" x2="2076" y1="1016" y2="1016"/>
       </positionableLines>
     </FkGl>
     <FkGl bkCl="ff000000" childEdge="WEST" nm="Metadata.REPORT.fk_REPORT_ORGANIZATION" parentEdge="EAST" positioner="OneLineUserLinkPositioner">
       <positionableLines>
-        <positionableLine lineRole="SINGLE_LINE" x1="872" x2="971" y1="1032" y2="1032"/>
+        <positionableLine lineRole="SINGLE_LINE" x1="799" x2="1008" y1="1152" y2="1152"/>
       </positionableLines>
     </FkGl>
-    <Notes/>
+    <Notes>
+      <Note bkCl="ffffffe6" x="1456" y="820">The Methods, Sources, Organizations tables are not visually mapped here with their tables for simplicity.</Note>
+    </Notes>
     <Zones>
-      <Zone bkCl="ffe5ffb2" h="2363" nm="Detail: detailed and site-specific data " w="996" x="14" y="1254"/>
-      <Zone bkCl="ffffd8b2" h="2351" nm="Summary:  summarized and aggregated data within a specified region" w="827" x="6" y="24"/>
+      <Zone bkCl="ffe5ffb2" h="2363" nm="Detail: detailed and site-specific data " w="996" x="14" y="1318"/>
+      <Zone bkCl="ffffd8b2" h="2353" nm="Summary:  summarized and aggregated data within a specified region" w="762" x="4" y="24"/>
     </Zones>
   </Dgm>
   <RnmMgr NxRnmId="84">
@@ -2689,17 +2691,20 @@
     </BasicOptionMgr>
   </DbDocOptionMgr>
   <OpenEditors>
-    <OpenEditor ClsNm="Diagram" fqn="null.WaDE_Schema" selected="1"/>
     <OpenEditor ClsNm="Diagram" fqn="null.Lookups" selected="0"/>
+    <OpenEditor ClsNm="Diagram" fqn="null.WaDE_Schema" selected="1"/>
   </OpenEditors>
   <TreePaths>
     <TreePath/>
     <TreePath>/Schemas (3)</TreePath>
+    <TreePath>/Schemas (3)/Metadata</TreePath>
+    <TreePath>/Schemas (3)/Metadata/Tables (6)</TreePath>
     <TreePath>/Diagrams (2)</TreePath>
     <TreePath>/Diagrams (2)/Lookups</TreePath>
     <TreePath>/Diagrams (2)/Lookups/Notes (0)</TreePath>
     <TreePath>/Diagrams (2)/Lookups/Zones (1)</TreePath>
     <TreePath>/Diagrams (2)/WaDE_Schema</TreePath>
+    <TreePath>/Diagrams (2)/WaDE_Schema/Notes (1)</TreePath>
   </TreePaths>
   <SqlTexts/>
 </Db>
